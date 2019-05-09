@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        print("cod pe Git")
+        
         myImage.isHidden = true
         myButton.setTitle("arata imaginea", for: .normal)
         myButton.setTitleColor(.green, for: .highlighted)
@@ -27,8 +29,6 @@ class ViewController: UIViewController {
     @IBAction func showHideImage(_ sender: Any) {
         
 //        myImage.alpha = 0.5
-
-        myImage
         
         if myImage.isHidden {
            myImage.isHidden = false
