@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         
         print("cod pe Git")
         
+        print("2")
+        
         myImage.isHidden = true
         myButton.setTitle("arata imaginea", for: .normal)
         myButton.setTitleColor(.green, for: .highlighted)
